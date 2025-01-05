@@ -161,6 +161,7 @@
   },
   "active": "14e1080e1e7db624",
   "lastOpenFiles": [
+    "netlify.toml",
     "requirements-dev.txt",
     "requirements.txt",
     "docs/ja/development/index.md",
@@ -173,7 +174,6 @@
     "site/en/development/tools/version-control/git/git-hook/post-commit",
     "site/en/development/tools/version-control/git/git-hook/index.html",
     "site/en/development/tools/version-control/git/index.html",
-    "site/en/development/tools/version-control/git/git-hook",
     "site/en/development/tools/document/pkm/obsidian/images/Setting_for_Obsidian_Options_Hotkeys_Template.png",
     "site/en/development/tools/document/pkm/obsidian/images/Seting_for_Obsidian_Core-plugins_Templates.png",
     "site/en/development/tools/editors/vscode/images/markdown-defaultFormatter.png",

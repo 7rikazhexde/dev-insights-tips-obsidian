@@ -1,0 +1,7 @@
+[build]
+command = """
+  pip install poetry  # Poetryをインストール
+  poetry install      # 依存関係をインストール
+  poetry run mkdocs build  # MkDocsをビルド
+  """
+publish = "site" # MkDocsのビルド出力ディレクトリ
