@@ -14,14 +14,14 @@ def extract_folders(directory: str) -> str:
         str: Returns a concatenated string of folder and file names under the specified folder
     """
     exclude_pattern = ""
-    folder_paths = []
+    folder_paths = [".obsidian"]  # エスケープは後で行うので、素の文字列として追加
     for root, dirs, _ in os.walk(directory):
         for folder in dirs:
             folder_path = os.path.join(root, folder)
             folder_paths.append(folder_path)
 
     if folder_paths:
-        folder_paths.insert(0, directory)
+        # siteディレクトリ自体は追加しない（パスに含まれているため）
         pattern = "|".join(map(re.escape, folder_paths))
         exclude_pattern = f"({pattern})/.*"
 
