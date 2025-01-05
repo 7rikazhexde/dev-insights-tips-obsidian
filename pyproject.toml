@@ -1,0 +1,73 @@
+[tool.poetry]
+authors = ["7rikazhexde <33836132+7rikazhexde@users.noreply.github.com>"]
+description = "A repository that gathers insights and tips for development. It aims to share information related to programming and development."
+license = "MIT"
+name = "dev-insights-tips-obsidian"
+package-mode = false
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+mkdocs-glightbox = "^0.4.0"
+mkdocs-material = "^9.5.49"
+mkdocs-static-i18n = "^1.2.3"
+plantuml-markdown = "^3.10.4"
+pre-commit = "^4.0.1"
+pygments = "^2.18.0"
+python = "^3.12"
+tomlkit = "^0.13.2"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.14.1"
+ruamel-yaml = "^0.18.9"
+ruff = "^0.8.6"
+taskipy = "^1.14.1"
+
+[tool.taskipy.tasks]
+mkdb = "poetry run mkdocs build --clean"
+mkddp = "poetry run mkdocs gh-deploy"
+mkds = "poetry run mkdocs serve"
+mypy = "poetry run mypy"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.ruff]
+exclude = [
+  ".bzr",
+  ".direnv",
+  ".eggs",
+  ".git",
+  ".git-rewrite",
+  ".hg",
+  ".mypy_cache",
+  ".nox",
+  ".pants.d",
+  ".pytype",
+  ".ruff_cache",
+  ".svn",
+  ".tox",
+  ".venv",
+  "__pypackages__",
+  "_build",
+  "buck-out",
+  "build",
+  "dist",
+  "node_modules",
+  "venv",
+]
+target-version = "py310"
+
+[tool.ruff.lint]
+ignore = ["E402", "E501"]
+per-file-ignores = {}
+select = ["E", "F", "I"]
+
+[tool.mypy]
+files = ["ci"]
+ignore_missing_imports = true
+python_version = "3.10"
+scripts_are_modules = true
+strict = true
+warn_return_any = false

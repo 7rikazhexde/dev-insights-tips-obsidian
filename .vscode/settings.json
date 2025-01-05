@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "**/.git": false
+  },
+  // 保存時に目次（TOC）を自動更新するか
+  "markdown.extension.toc.updateOnSave": false,
+  // ファイル保存時にフォーマットする
+  "editor.formatOnSave": true,
+  // フォーマット対象をファイルタイプで指定する
+  // Markdownファイルは無効
+  "[markdown]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.codeActionsOnSave.rules": null,
+  // ファイル保存時に改行を挿入する
+  "files.insertFinalNewline": true
+}

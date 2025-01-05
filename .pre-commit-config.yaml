@@ -1,0 +1,91 @@
+# pre-commit stop running hooks after the first failure.
+fail_fast: true
+# A list of repository mappings
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      # Remove spaces at end of lines except markdown
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+        exclude: '(site|site/development|site/tags|site/search|site/en|site/assets|site/stylesheets|site/development/database|site/development/tools|site/development/programming|site/development/cloud|site/development/embedded|site/development/database/mariadb|site/development/database/dynamodb|site/development/database/mongodb|site/development/database/mongodb/install\-mongodb|site/development/database/mongodb/images|site/development/database/mongodb/mongosh|site/development/database/mongodb/pymongo|site/development/database/mongodb/mongodb\-compass|site/development/tools/design|site/development/tools/version\-control|site/development/tools/editors|site/development/tools/document|site/development/tools/shortcuts|site/development/tools/design/inkscape|site/development/tools/design/inkscape/images|site/development/tools/version\-control/git|site/development/tools/version\-control/git/git\-hook|site/development/tools/version\-control/git/git\-hook/post\-commit|site/development/tools/version\-control/git/git\-hook/pre\-commit|site/development/tools/editors/vi|site/development/tools/editors/vscode|site/development/tools/editors/vscode/settings|site/development/tools/editors/vscode/images|site/development/tools/editors/vscode/extention|site/development/tools/document/markdown|site/development/tools/document/pkm|site/development/tools/document/mkdocs|site/development/tools/document/pkm/obsidian|site/development/tools/document/pkm/workflowy|site/development/tools/document/pkm/obsidian/images|site/development/tools/document/pkm/obsidian/community_plugins|site/development/tools/document/pkm/obsidian/community_plugins/plantuml|site/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger|site/development/tools/document/mkdocs/doc_config|site/development/tools/document/mkdocs/display\-config|site/development/programming/applescript|site/development/programming/python|site/development/programming/applescript/example|site/development/programming/python/pymysql|site/development/programming/python/images|site/development/programming/python/mdformat|site/development/programming/python/dash\-plotly|site/development/cloud/aws|site/development/cloud/aws/dynamodb|site/development/cloud/aws/aws\-cli|site/development/cloud/aws/dynamodb/dynamodb\-local|site/development/embedded/raspberrypi|site/development/embedded/raspberrypi/raspberrypi\-ubuntu|site/en/development|site/en/tags|site/en/development/database|site/en/development/tools|site/en/development/programming|site/en/development/cloud|site/en/development/embedded|site/en/development/database/mariadb|site/en/development/database/dynamodb|site/en/development/database/mongodb|site/en/development/database/mongodb/install\-mongodb|site/en/development/database/mongodb/images|site/en/development/database/mongodb/mongosh|site/en/development/database/mongodb/pymongo|site/en/development/database/mongodb/mongodb\-compass|site/en/development/tools/design|site/en/development/tools/version\-control|site/en/development/tools/editors|site/en/development/tools/document|site/en/development/tools/shortcuts|site/en/development/tools/design/inkscape|site/en/development/tools/design/inkscape/images|site/en/development/tools/version\-control/git|site/en/development/tools/version\-control/git/git\-hook|site/en/development/tools/version\-control/git/git\-hook/post\-commit|site/en/development/tools/version\-control/git/git\-hook/pre\-commit|site/en/development/tools/editors/vi|site/en/development/tools/editors/vscode|site/en/development/tools/editors/vscode/settings|site/en/development/tools/editors/vscode/images|site/en/development/tools/editors/vscode/extention|site/en/development/tools/document/markdown|site/en/development/tools/document/pkm|site/en/development/tools/document/mkdocs|site/en/development/tools/document/pkm/obsidian|site/en/development/tools/document/pkm/workflowy|site/en/development/tools/document/pkm/obsidian/images|site/en/development/tools/document/pkm/obsidian/community_plugins|site/en/development/tools/document/pkm/obsidian/community_plugins/plantuml|site/en/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger|site/en/development/tools/document/mkdocs/doc_config|site/en/development/tools/document/mkdocs/display\-config|site/en/development/programming/applescript|site/en/development/programming/python|site/en/development/programming/applescript/example|site/en/development/programming/python/pymysql|site/en/development/programming/python/images|site/en/development/programming/python/mdformat|site/en/development/programming/python/dash\-plotly|site/en/development/cloud/aws|site/en/development/cloud/aws/dynamodb|site/en/development/cloud/aws/aws\-cli|site/en/development/cloud/aws/dynamodb/dynamodb\-local|site/en/development/embedded/raspberrypi|site/en/development/embedded/raspberrypi/raspberrypi\-ubuntu|site/assets/images|site/assets/img|site/assets/javascripts|site/assets/stylesheets|site/assets/javascripts/lunr|site/assets/javascripts/workers|site/assets/javascripts/lunr/min)/.*'
+      # Make the last line of the file a newline code
+      - id: end-of-file-fixer
+        # Unify line break code to LF
+        exclude: '(site|site/development|site/tags|site/search|site/en|site/assets|site/stylesheets|site/development/database|site/development/tools|site/development/programming|site/development/cloud|site/development/embedded|site/development/database/mariadb|site/development/database/dynamodb|site/development/database/mongodb|site/development/database/mongodb/install\-mongodb|site/development/database/mongodb/images|site/development/database/mongodb/mongosh|site/development/database/mongodb/pymongo|site/development/database/mongodb/mongodb\-compass|site/development/tools/design|site/development/tools/version\-control|site/development/tools/editors|site/development/tools/document|site/development/tools/shortcuts|site/development/tools/design/inkscape|site/development/tools/design/inkscape/images|site/development/tools/version\-control/git|site/development/tools/version\-control/git/git\-hook|site/development/tools/version\-control/git/git\-hook/post\-commit|site/development/tools/version\-control/git/git\-hook/pre\-commit|site/development/tools/editors/vi|site/development/tools/editors/vscode|site/development/tools/editors/vscode/settings|site/development/tools/editors/vscode/images|site/development/tools/editors/vscode/extention|site/development/tools/document/markdown|site/development/tools/document/pkm|site/development/tools/document/mkdocs|site/development/tools/document/pkm/obsidian|site/development/tools/document/pkm/workflowy|site/development/tools/document/pkm/obsidian/images|site/development/tools/document/pkm/obsidian/community_plugins|site/development/tools/document/pkm/obsidian/community_plugins/plantuml|site/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger|site/development/tools/document/mkdocs/doc_config|site/development/tools/document/mkdocs/display\-config|site/development/programming/applescript|site/development/programming/python|site/development/programming/applescript/example|site/development/programming/python/pymysql|site/development/programming/python/images|site/development/programming/python/mdformat|site/development/programming/python/dash\-plotly|site/development/cloud/aws|site/development/cloud/aws/dynamodb|site/development/cloud/aws/aws\-cli|site/development/cloud/aws/dynamodb/dynamodb\-local|site/development/embedded/raspberrypi|site/development/embedded/raspberrypi/raspberrypi\-ubuntu|site/en/development|site/en/tags|site/en/development/database|site/en/development/tools|site/en/development/programming|site/en/development/cloud|site/en/development/embedded|site/en/development/database/mariadb|site/en/development/database/dynamodb|site/en/development/database/mongodb|site/en/development/database/mongodb/install\-mongodb|site/en/development/database/mongodb/images|site/en/development/database/mongodb/mongosh|site/en/development/database/mongodb/pymongo|site/en/development/database/mongodb/mongodb\-compass|site/en/development/tools/design|site/en/development/tools/version\-control|site/en/development/tools/editors|site/en/development/tools/document|site/en/development/tools/shortcuts|site/en/development/tools/design/inkscape|site/en/development/tools/design/inkscape/images|site/en/development/tools/version\-control/git|site/en/development/tools/version\-control/git/git\-hook|site/en/development/tools/version\-control/git/git\-hook/post\-commit|site/en/development/tools/version\-control/git/git\-hook/pre\-commit|site/en/development/tools/editors/vi|site/en/development/tools/editors/vscode|site/en/development/tools/editors/vscode/settings|site/en/development/tools/editors/vscode/images|site/en/development/tools/editors/vscode/extention|site/en/development/tools/document/markdown|site/en/development/tools/document/pkm|site/en/development/tools/document/mkdocs|site/en/development/tools/document/pkm/obsidian|site/en/development/tools/document/pkm/workflowy|site/en/development/tools/document/pkm/obsidian/images|site/en/development/tools/document/pkm/obsidian/community_plugins|site/en/development/tools/document/pkm/obsidian/community_plugins/plantuml|site/en/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger|site/en/development/tools/document/mkdocs/doc_config|site/en/development/tools/document/mkdocs/display\-config|site/en/development/programming/applescript|site/en/development/programming/python|site/en/development/programming/applescript/example|site/en/development/programming/python/pymysql|site/en/development/programming/python/images|site/en/development/programming/python/mdformat|site/en/development/programming/python/dash\-plotly|site/en/development/cloud/aws|site/en/development/cloud/aws/dynamodb|site/en/development/cloud/aws/aws\-cli|site/en/development/cloud/aws/dynamodb/dynamodb\-local|site/en/development/embedded/raspberrypi|site/en/development/embedded/raspberrypi/raspberrypi\-ubuntu|site/assets/images|site/assets/img|site/assets/javascripts|site/assets/stylesheets|site/assets/javascripts/lunr|site/assets/javascripts/workers|site/assets/javascripts/lunr/min)/.*'
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      # toml syntax check
+      - id: check-toml
+      # yaml syntax check
+      - id: check-yaml
+        # Exclude check for "could not determine a constructor for the tag 'tag:yaml.org,2002:python/name:materialx.emoji.twemoji'"
+        args: [--unsafe]
+
+  # https://python-poetry.org/docs/pre-commit-hooks/#usage
+  - repo: https://github.com/python-poetry/poetry
+    rev: 1.8.0
+    hooks:
+      - id: poetry-check
+        verbose: true
+      - id: poetry-lock
+        verbose: true
+      - id: poetry-export
+        args: ["-f", "requirements.txt", "-o", "requirements.txt", "--without-hashes"]
+        verbose: true
+        files: ^pyproject\.toml$
+      - id: poetry-export
+        args: ["--with", "dev", "-f", "requirements.txt", "-o", "requirements-dev.txt",
+          "--without-hashes"]
+        verbose: true
+        files: ^pyproject\.toml$
+
+  # https://github.com/shellcheck-py/shellcheck-py?tab=readme-ov-file#usage
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.10.0.1
+    hooks:
+      - id: shellcheck
+
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.5
+    hooks:
+      - id: actionlint
+
+  # Reference: https://github.com/DavidAnson/markdownlint-cli2#overview
+  # > markdownlint-cli is a traditional command-line interface for markdownlint.
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.43.0
+    hooks:
+      - id: markdownlint
+        args: ["--config", ".markdownlint.jsonc", "README.md", "docs/**/*.md"]
+
+  # Reference: https://github.com/DavidAnson/markdownlint-cli2#overview
+  # > markdownlint-cli2はmarkdownlint用の少し型破りなコマンドラインインターフェイスです。
+  # > markdownlint-cli2は設定ベースで、速度とシンプルさを優先しています。
+  # > markdownlint-cli2はmarkdownlint-cliのすべての機能をサポートしています（少し異なる場合もあります）。
+  #- repo: https://github.com/DavidAnson/markdownlint-cli2
+  #  rev: v0.10.0
+  #  hooks:
+  #    - id: markdownlint-cli2
+  #      args:
+  #        [
+  #          "--fix",
+  #          "--config",
+  #          ".markdownlint.jsonc",
+  #          "README.md",
+  #          "docs/**/*.md",
+  #        ]
+
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.8.5
+    hooks:
+      - id: ruff
+        args: ["--fix", "ci"]
+      - id: ruff-format
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.14.1
+    hooks:
+      - id: mypy
+        additional_dependencies: [types-requests==2.32.0.20240622]
+        args: [--config-file=pyproject.toml]

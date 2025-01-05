@@ -1,0 +1,225 @@
+site_name: Dev Insights Tips by Obsidian
+site_description: "knowledge and tips on development"
+site_author: "7rikazhexde"
+site_url: "https://7rikazhexde.github.io/dev-insights-tips-obsidian"
+repo_name: 7rikazhexde/dev-insights-tips-obsidian
+repo_url: https://github.com/7rikazhexde/dev-insights-tips-obsidian
+copyright: "&copy; 2024 7rikazhexde"
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    # Light Mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Noto Sans
+    code: Inconsolata
+  language: ja
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # Enable link setting on section
+    - navigation.indexes
+    # Back-to-top button
+    - navigation.top
+    # groups in the sidebar
+    #- navigation.sections
+    # expand all collapsible subsections
+    #- navigation.expand
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    #- content.tabs.link
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/7rikazhexde
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/tw_7rikazhexde
+    - icon: fontawesome/solid/blog
+      link: https://7rikazhexde-techlog.hatenablog.com/
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  analytics:
+    provider: google
+    property: G-4D30V35REY
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thank you for your feedback!<br>
+            Please use the comments(giscus) below to send us your feedback on this page.
+          #note: >-
+          #  Thanks for your feedback!<br>
+          #  Please use the link below to provide feedback on this page.<br>
+          #  <a href="https://github.com/7rikazhexde/dev-insights-tips/issues/new" target="_blank" rel="noopener">submit github new issue</a>
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thank you for your feedback!<br>
+            Please use the comments(giscus) below to send me your feedback on this page or<br>
+            use the link below to provide feedback on this page.<br>
+            <a href="https://github.com/7rikazhexde/dev-insights-tips/issues/new" target="_blank" rel="noopener">submit github new issue</a>
+
+extra_css:
+  # Ref: https://squidfunk.github.io/mkdocs-material/customization/#additional-css
+  # Ref: https://github.com/Shigezo32/MkDocs/
+  #- https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+  #- stylesheets/custom.css
+  #- stylesheets/extra.css
+
+nav:
+  - Home: ja/index.md
+  - Tag: ja/tags.md
+  - Development:
+      - ja/development/index.md
+      - Cloud:
+          - ja/development/cloud/index.md
+          - AWS:
+              - ja/development/cloud/aws/index.md
+              - AWS CLI:
+                  - ja/development/cloud/aws/aws-cli/index.md
+              - DynamoDB:
+                  - ja/development/cloud/aws/dynamodb/index.md
+                  - DynamoDB Local: ja/development/cloud/aws/dynamodb/dynamodb-local.md
+      - Database:
+          - ja/development/database/index.md
+          - MariaDB: ja/development/database/mariadb/index.md
+          - MongoDB:
+              - ja/development/database/mongodb/index.md
+              - Install: ja/development/database/mongodb/install-mongodb.md
+              - MongoDB Compass: ja/development/database/mongodb/mongodb-compass.md
+              - Mongosh: ja/development/database/mongodb/mongosh.md
+              - PyMongo: ja/development/database/mongodb/pymongo.md
+          - DynamoDB: ja/development/database/dynamodb/index.md
+      - Embedded:
+          - ja/development/embedded/index.md
+          - RaspberryPi:
+              - ja/development/embedded/raspberrypi/index.md
+              - Ubuntu: ja/development/embedded/raspberrypi/raspberrypi-ubuntu.md
+      - Programming:
+          - ja/development/programming/index.md
+          - AppleScript:
+              - ja/development/programming/applescript/index.md
+              - Example: ja/development/programming/applescript/example.md
+          - Python:
+              - ja/development/programming/python/index.md
+              - Dash/Plotly: ja/development/programming/python/dash-plotly.md
+              - mdformat: ja/development/programming/python/mdformat.md
+              - PyMySQL: ja/development/programming/python/pymysql.md
+      - Tools:
+          - ja/development/tools/index.md
+          - Design:
+              - ja/development/tools/design/index.md
+              - Inkscape: ja/development/tools/design/inkscape/index.md
+          - Document:
+              - ja/development/tools/document/index.md
+              - Markdown: ja/development/tools/document/markdown/index.md
+              - MkDocs:
+                  - ja/development/tools/document/mkdocs/index.md
+                  - Display settings: ja/development/tools/document/mkdocs/display-config.md
+                  - Document settings: ja/development/tools/document/mkdocs/doc_config.md
+              - PKM:
+                  - ja/development/tools/document/pkm/index.md
+                  - Obsidian:
+                      - ja/development/tools/document/pkm/obsidian/index.md
+                      - Community Plugins:
+                          - ja/development/tools/document/pkm/obsidian/community_plugins/index.md
+                          - Auto Template Trigger: ja/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger.md
+                          - PlantUML: ja/development/tools/document/pkm/obsidian/community_plugins/plantuml.md
+                  - WorkFlowy: ja/development/tools/document/pkm/workflowy/index.md
+          - Editors:
+              - ja/development/tools/editors/index.md
+              - Vi: ja/development/tools/editors/vi/index.md
+              - VSCode:
+                  - ja/development/tools/editors/vscode/index.md
+                  - Exxtension: ja/development/tools/editors/vscode/extention.md
+                  - Settings: ja/development/tools/editors/vscode/settings.md
+          - Shortcuts: ja/development/tools/shortcuts/index.md
+          - Version Control:
+              - ja/development/tools/version-control/index.md
+              - Git:
+                  - ja/development/tools/version-control/git/index.md
+                  - Git Hook:
+                      - ja/development/tools/version-control/git/git-hook/index.md
+                      - pre-commit: ja/development/tools/version-control/git/git-hook/index.md
+                      - post-commit: ja/development/tools/version-control/git/git-hook/index.md
+
+plugins:
+  - search:
+  # For localize
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      languages:
+        - build: true
+          default: false
+          locale: en
+          name: English
+          nav_translations:
+            Home: Home
+        - build: true
+          default: true
+          locale: ja
+          name: 日本語
+      reconfigure_material: true
+      reconfigure_search: true
+  - glightbox
+  - tags:
+      tags_file: tags.md
+      # For localize
+      # i18n設定でjaだけ有効にする場合はplugin/i18nをコメントアウトして以下有効にする必要がある
+      #tags_file: ja/tags.md
+
+markdown_extensions:
+  - footnotes
+  - plantuml_markdown:
+      server: http://www.plantuml.com/plantuml
+  # For Admonition
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  # For Code Blocks
+  - pymdownx.highlight:
+      #use_pygments: true
+      #noclasses: true
+      #pygments_style: monokai
+      linenums: true
+  #- pymdownx.inlinehilite
+  - pymdownx.superfences
+  # For Emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+  # For Meta Tag(Relate: Twitter Cards/OGP)
+  - meta

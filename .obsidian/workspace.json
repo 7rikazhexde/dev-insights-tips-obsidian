@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "06b93c715df646ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8809c03dcf69f43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c077fa0bcc7b1bc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ja/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af2de3a822f7c2ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e9cc2d9340d3142",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14e1080e1e7db624",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e57a247ff65f4ba9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "ff5202781046002d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ae8229956b78b27f",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d72e8533305ff7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "140a61c2cd952d87",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "バックリンク"
+            }
+          },
+          {
+            "id": "d1bd8887343029d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "アウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "56bb919a35e9c149",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "86ed8f13918d6180",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "アウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "14e1080e1e7db624",
+  "lastOpenFiles": [
+    "requirements-dev.txt",
+    "requirements.txt",
+    "docs/ja/development/index.md",
+    "docs/ja/development/cloud/index.md",
+    "site/en/tags/index.html",
+    "site/en/tags",
+    "site/en/development/tools/version-control/git/git-hook/pre-commit/index.html",
+    "site/en/development/tools/version-control/git/git-hook/pre-commit",
+    "site/en/development/tools/version-control/git/git-hook/post-commit/index.html",
+    "site/en/development/tools/version-control/git/git-hook/post-commit",
+    "site/en/development/tools/version-control/git/git-hook/index.html",
+    "site/en/development/tools/version-control/git/index.html",
+    "site/en/development/tools/version-control/git/git-hook",
+    "site/en/development/tools/document/pkm/obsidian/images/Setting_for_Obsidian_Options_Hotkeys_Template.png",
+    "site/en/development/tools/document/pkm/obsidian/images/Seting_for_Obsidian_Core-plugins_Templates.png",
+    "site/en/development/tools/editors/vscode/images/markdown-defaultFormatter.png",
+    "site/en/development/tools/design/inkscape/images/inkscape.png",
+    "site/en/development/tools/design/inkscape/images/Inkscape_edit_text.png",
+    "site/en/development/tools/design/inkscape/images/Inkscape_edit_shape.png",
+    "site/en/development/tools/design/inkscape/images/Inkscape_edit_arrow.png",
+    "site/en/development/tools/design/inkscape/images/Inkscape_edit.svg",
+    "site/en/development/programming/python/images/example-mkdocs-admonitions-ok.png",
+    "site/en/development/programming/python/images/example-mkdocs-admonitions-ng.png",
+    "README.md",
+    "docs/ja/tags.md",
+    "docs/ja/index.md",
+    "docs/ja/development/tools/version-control/git/git-hook/pre-commit/index.md",
+    "docs/ja/development/tools/version-control/git/git-hook/post-commit/index.md",
+    "docs/ja/development/tools/version-control/git/git-hook/index.md",
+    "docs/ja/development/tools/version-control/git/index.md",
+    "docs/ja/development/tools/version-control/index.md",
+    "docs/ja/development/tools/shortcuts/index.md",
+    "docs/ja/development/tools/index.md",
+    "docs/ja/development/tools/editors/vscode/settings.md",
+    "docs/ja/development/tools/editors/vscode/index.md",
+    "docs/ja/development/tools/editors/vscode/extention.md",
+    "docs/ja/development/tools/editors/vi/index.md",
+    "docs/ja/development/tools/editors/index.md",
+    "docs/ja/development/tools/document/pkm/workflowy/index.md",
+    "docs/ja/development/tools/document/pkm/obsidian/index.md",
+    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/plantuml.md",
+    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/index.md",
+    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger.md",
+    "docs/ja/development/tools/document/pkm/index.md",
+    "docs/ja/development/tools/document/mkdocs/index.md",
+    "docs/ja/development/tools/document/mkdocs/doc_config.md"
+  ]
+}
