@@ -3,7 +3,7 @@ title: PyMySQL
 tags:
   - Python
   - PyMySQL
-  - pip
+  - Pip
 description:
   - PyMySQL関連のTips
 ---

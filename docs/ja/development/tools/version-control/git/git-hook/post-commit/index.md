@@ -1,7 +1,7 @@
 ---
 title: post-commit
 tags:
-  - post-commit
+  - Post-commit
 description:
   - post-commit関連のTips
 ---

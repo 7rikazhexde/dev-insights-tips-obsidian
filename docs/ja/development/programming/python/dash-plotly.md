@@ -3,7 +3,7 @@ title: Dash / Plotly
 tags:
   - Dash
   - Plotly
-  - pip
+  - Pip
 description:
 ---
 

@@ -3,7 +3,7 @@ title: Mdformat
 tags:
   - Python
   - Mdformat
-  - pip
+  - Pip
 description:
 ---
 

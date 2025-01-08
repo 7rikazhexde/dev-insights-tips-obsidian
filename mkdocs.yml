@@ -96,8 +96,12 @@ extra_css:
   #- stylesheets/extra.css
 
 nav:
-  - Home: ja/index.md
-  - Tag: ja/tags.md
+  - Home: index.md
+  # For localize
+  #- Home: index.md
+  - Tag: tags.md
+  # For localize
+  #- Tag: tags.md
   - Development:
       - ja/development/index.md
       - Cloud:
@@ -175,22 +179,22 @@ nav:
 plugins:
   - search:
   # For localize
-  - i18n:
-      docs_structure: folder
-      fallback_to_default: true
-      languages:
-        - build: true
-          default: false
-          locale: en
-          name: English
-          nav_translations:
-            Home: Home
-        - build: true
-          default: true
-          locale: ja
-          name: 日本語
-      reconfigure_material: true
-      reconfigure_search: true
+  #- i18n:
+  #    docs_structure: folder
+  #    fallback_to_default: true
+  #    languages:
+  #      - build: true
+  #        default: false
+  #        locale: en
+  #        name: English
+  #        nav_translations:
+  #          Home: Home
+  #      - build: true
+  #        default: true
+  #        locale: ja
+  #        name: 日本語
+  #    reconfigure_material: true
+  #    reconfigure_search: true
   - glightbox
   - tags:
       tags_file: tags.md

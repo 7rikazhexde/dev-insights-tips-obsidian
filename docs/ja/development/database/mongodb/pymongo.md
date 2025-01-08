@@ -5,7 +5,7 @@ tags:
   - Python
   - Pymongo
   - NoSQL
-  - pip
+  - Pip
 description:
 ---
 

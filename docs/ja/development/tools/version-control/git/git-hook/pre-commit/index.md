@@ -1,7 +1,7 @@
 ---
 title: pre-commit
 tags:
-  - pre-commit
+  - Pre-commit
 description:
   - pre-commit関連のTips
 ---
