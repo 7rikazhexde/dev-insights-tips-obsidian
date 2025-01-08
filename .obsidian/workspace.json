@@ -11,10 +11,14 @@
             "id": "c077fa0bcc7b1bc6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "index"
             }
           }
         ]
@@ -151,15 +155,20 @@
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14e1080e1e7db624",
+  "active": "c077fa0bcc7b1bc6",
   "lastOpenFiles": [
+    "docs/tags.md",
+    "docs/ja/development/index.md",
+    "docs/index.md",
+    "README.md",
+    "dev-insights-tips-obsidian/Welcome.md",
     "netlify.toml",
     "requirements-dev.txt",
     "requirements.txt",
-    "docs/ja/development/index.md",
     "docs/ja/development/cloud/index.md",
     "site/en/tags/index.html",
     "site/en/tags",
@@ -168,7 +177,6 @@
     "site/en/development/tools/version-control/git/git-hook/post-commit/index.html",
     "site/en/development/tools/version-control/git/git-hook/post-commit",
     "site/en/development/tools/version-control/git/git-hook/index.html",
-    "site/en/development/tools/version-control/git/index.html",
     "site/en/development/tools/document/pkm/obsidian/images/Setting_for_Obsidian_Options_Hotkeys_Template.png",
     "site/en/development/tools/document/pkm/obsidian/images/Seting_for_Obsidian_Core-plugins_Templates.png",
     "site/en/development/tools/editors/vscode/images/markdown-defaultFormatter.png",
@@ -179,7 +187,6 @@
     "site/en/development/tools/design/inkscape/images/Inkscape_edit.svg",
     "site/en/development/programming/python/images/example-mkdocs-admonitions-ok.png",
     "site/en/development/programming/python/images/example-mkdocs-admonitions-ng.png",
-    "README.md",
     "docs/ja/tags.md",
     "docs/ja/index.md",
     "docs/ja/development/tools/version-control/git/git-hook/pre-commit/index.md",
@@ -199,8 +206,6 @@
     "docs/ja/development/tools/document/pkm/obsidian/community_plugins/plantuml.md",
     "docs/ja/development/tools/document/pkm/obsidian/community_plugins/index.md",
     "docs/ja/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger.md",
-    "docs/ja/development/tools/document/pkm/index.md",
-    "docs/ja/development/tools/document/mkdocs/index.md",
-    "docs/ja/development/tools/document/mkdocs/doc_config.md"
+    "docs/ja/development/tools/document/pkm/index.md"
   ]
 }
