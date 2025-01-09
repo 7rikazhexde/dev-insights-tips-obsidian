@@ -11,10 +11,14 @@
             "id": "f57d2e0f8b93bbae",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/ja/development/tools/editors/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -136,13 +140,23 @@
               "icon": "lucide-list",
               "title": "アウトライン"
             }
+          },
+          {
+            "id": "8508348b2ce65699",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,16 +165,27 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "14e1080e1e7db624",
   "lastOpenFiles": [
+    "docs/ja/development/tools/editors/vscode/index.md",
+    "docs/ja/development/tools/editors/index.md",
+    "docs/ja/development/tools/editors/vi/index.md",
+    "docs/ja/development/tools/index.md",
+    "docs/ja/development/tools/shortcuts/index.md",
+    "docs/ja/development/tools/version-control/index.md",
+    "cloud/index.md",
+    "cloud",
+    "docs/ja/development/index.md",
+    "docs/ja/development/tools/design/index.md",
+    "docs/ja/development/programming/index.md",
+    "docs/tags.md",
+    "docs/index.md",
     "docs/ja/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger.md",
     "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
-    "docs/index.md",
-    "docs/tags.md",
-    "docs/ja/development/index.md",
     "README.md",
     "dev-insights-tips-obsidian/Welcome.md",
     "netlify.toml",
@@ -173,7 +198,6 @@
     "site/en/development/tools/version-control/git/git-hook/pre-commit",
     "site/en/development/tools/version-control/git/git-hook/post-commit/index.html",
     "site/en/development/tools/version-control/git/git-hook/post-commit",
-    "site/en/development/tools/version-control/git/git-hook/index.html",
     "site/en/development/tools/document/pkm/obsidian/images/Setting_for_Obsidian_Options_Hotkeys_Template.png",
     "site/en/development/tools/document/pkm/obsidian/images/Seting_for_Obsidian_Core-plugins_Templates.png",
     "site/en/development/tools/editors/vscode/images/markdown-defaultFormatter.png",
@@ -190,17 +214,8 @@
     "docs/ja/development/tools/version-control/git/git-hook/post-commit/index.md",
     "docs/ja/development/tools/version-control/git/git-hook/index.md",
     "docs/ja/development/tools/version-control/git/index.md",
-    "docs/ja/development/tools/version-control/index.md",
-    "docs/ja/development/tools/shortcuts/index.md",
-    "docs/ja/development/tools/index.md",
     "docs/ja/development/tools/editors/vscode/settings.md",
-    "docs/ja/development/tools/editors/vscode/index.md",
     "docs/ja/development/tools/editors/vscode/extention.md",
-    "docs/ja/development/tools/editors/vi/index.md",
-    "docs/ja/development/tools/editors/index.md",
-    "docs/ja/development/tools/document/pkm/workflowy/index.md",
-    "docs/ja/development/tools/document/pkm/obsidian/index.md",
-    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/plantuml.md",
-    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/index.md"
+    "docs/ja/development/tools/document/pkm/workflowy/index.md"
   ]
 }
