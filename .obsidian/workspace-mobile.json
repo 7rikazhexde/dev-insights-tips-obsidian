@@ -13,12 +13,12 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "aFile": "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
-                "bFile": "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
+                "aFile": ".obsidian/workspace-mobile.json",
+                "bFile": ".obsidian/workspace-mobile.json",
                 "aRef": ""
               },
               "icon": "git-pull-request",
-              "title": "Diff: Obsidian Git"
+              "title": "Diff: workspace-mobile.json"
             }
           }
         ]
@@ -48,7 +48,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:Obsidian-community-plugins",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -83,7 +83,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "b031d9a1b139477d",

@@ -3,6 +3,7 @@ title: Obsidian Git
 tags:
   - Obsidian
   - Obsidian-Git
+  - Obsidian-community-plugins
 description: Obsidian Git関連のtips
 ---
 # Obsidian Gitとは
