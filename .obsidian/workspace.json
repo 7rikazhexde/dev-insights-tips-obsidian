@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ja/development/tools/editors/index.md",
+                "file": "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Obsidian Git"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,7 +60,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "検索"
+              "title": "Search"
             }
           },
           {
@@ -73,7 +73,8 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,10 +170,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14e1080e1e7db624",
+  "active": "f57d2e0f8b93bbae",
   "lastOpenFiles": [
-    "docs/ja/development/tools/editors/vscode/index.md",
+    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger.md",
+    "docs/tags.md",
+    "docs/index.md",
     "docs/ja/development/tools/editors/index.md",
+    "docs/ja/development/tools/editors/vscode/index.md",
     "docs/ja/development/tools/editors/vi/index.md",
     "docs/ja/development/tools/index.md",
     "docs/ja/development/tools/shortcuts/index.md",
@@ -182,9 +186,6 @@
     "docs/ja/development/index.md",
     "docs/ja/development/tools/design/index.md",
     "docs/ja/development/programming/index.md",
-    "docs/tags.md",
-    "docs/index.md",
-    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger.md",
     "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
     "README.md",
     "dev-insights-tips-obsidian/Welcome.md",
