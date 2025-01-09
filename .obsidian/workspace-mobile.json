@@ -11,10 +11,14 @@
             "id": "2aff2f02d3e66da8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "diff-view",
+              "state": {
+                "aFile": "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
+                "bFile": "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
+                "aRef": ""
+              },
+              "icon": "git-pull-request",
+              "title": "Diff: Obsidian Git"
             }
           }
         ]
