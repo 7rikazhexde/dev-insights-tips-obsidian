@@ -133,9 +133,19 @@
           "icon": "lucide-list",
           "title": "Outline"
         }
+      },
+      {
+        "id": "126f08914ca9436c",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,5 +159,7 @@
     }
   },
   "active": "2384d654687a4e3e",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "IMG_5304.png"
+  ]
 }
