@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "97245bc56b1b2f7d",
+        "id": "1c5923cb87395b80",
         "type": "tabs",
         "children": [
           {
-            "id": "2384d654687a4e3e",
+            "id": "2aff2f02d3e66da8",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "aFile": "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
-                "bFile": "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
-                "aRef": ""
-              },
-              "icon": "git-pull-request",
-              "title": "Diff: Obsidian Git"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -158,7 +154,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2384d654687a4e3e",
+  "active": "2aff2f02d3e66da8",
   "lastOpenFiles": [
     "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
     "docs/ja/development/tools/document/pkm/obsidian/images/Seting_for_Obsidian_Core-plugins_Templates.png",
