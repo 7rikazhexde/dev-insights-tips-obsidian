@@ -5,7 +5,7 @@ tags:
   - Auto Template Trigger
 description: Auto Template Trigger関連のtipsをまとめてます。
 ---
-
+dev-insights-tips-obsidian
 > It triggers the template prompt when creating a note.
 
 [プラグイン一覧へ戻る](../index.md#プラグインの追加)
