@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8161c4ff4c7c037e",
+        "id": "e360d37b46dcd385",
         "type": "tabs",
         "children": [
           {
-            "id": "f57d2e0f8b93bbae",
+            "id": "20b1767ddc622d68",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Obsidian Git"
+              "title": "New tab"
             }
           }
         ]
@@ -52,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Obsidian",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +69,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,8 +165,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f57d2e0f8b93bbae",
+  "active": "8508348b2ce65699",
   "lastOpenFiles": [
+    "docs/ja/development/cloud/index.md",
+    "cloud/index.md",
+    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
     "docs/ja/development/tools/document/pkm/obsidian/community_plugins/auto_template_trigger.md",
     "docs/tags.md",
     "docs/index.md",
@@ -181,18 +179,15 @@
     "docs/ja/development/tools/index.md",
     "docs/ja/development/tools/shortcuts/index.md",
     "docs/ja/development/tools/version-control/index.md",
-    "cloud/index.md",
     "cloud",
     "docs/ja/development/index.md",
     "docs/ja/development/tools/design/index.md",
     "docs/ja/development/programming/index.md",
-    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
     "README.md",
     "dev-insights-tips-obsidian/Welcome.md",
     "netlify.toml",
     "requirements-dev.txt",
     "requirements.txt",
-    "docs/ja/development/cloud/index.md",
     "site/en/tags/index.html",
     "site/en/tags",
     "site/en/development/tools/version-control/git/git-hook/pre-commit/index.html",
