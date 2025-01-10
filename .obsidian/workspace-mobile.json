@@ -83,7 +83,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "b031d9a1b139477d",
@@ -160,11 +160,17 @@
   },
   "active": "2aff2f02d3e66da8",
   "lastOpenFiles": [
+    "docs/ja/development/tools/index.md",
+    "/docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
+    "docs/ja/development/tools/shortcuts/index.md",
+    "docs/ja/development/index.md",
+    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
+    "cloud",
+    "cloud/index.md",
     "/docs/ja/development/tools/index.md",
     "/docs/ja/development/tools/editors/index.md",
     "/cloud/index.md",
     "/cloud",
-    "docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
     "docs/ja/development/tools/document/pkm/obsidian/images/Seting_for_Obsidian_Core-plugins_Templates.png",
     "docs/ja/development/tools/document/pkm/obsidian/community_plugins/images",
     "docs/ja/development/tools/document/pkm/obsidian/community_plugins/images/IMG_5304.png",
