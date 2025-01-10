@@ -6,13 +6,14 @@ tags:
   - Obsidian-community-plugins
 description: Obsidian Git関連のtips
 ---
+
 # Obsidian Gitとは
 
 Obsidianのノート管理とGitによるバージョン管理を統合する機能を提供するコミュニティプラグイン
 
-### リポジトリ
+## リポジトリ
 
-https://github.com/Vinzent03/obsidian-git
+[https://github.com/Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git)
 
 ### 設定
 
@@ -20,16 +21,18 @@ https://github.com/Vinzent03/obsidian-git
 - git configはobsidian gitのプラグインで設定できる。`username`と`author name`,`author email`は設定しないと認証エラーが出る場合がある。リポジトリのコンテンツ権限を有効にした`PAT`も必要になる場合もある。ただ、入力しても設定できているか確認できないので不明。
 - 変更ファイルは右下の設定メニューの`Open Git control view`から確認できる。
 - コミットメッセージは`Open Git control view`で指定できるが、obsidian gitのプラグインの設定から設定可能。
-- PAT設定
+
+#### PAT設定
+
 1. GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens
 2. "Generate new token"
 3. 設定内容：
-   - Token name: 任意（例：obsidian-git-iphone）
-   - Expiration: 任意の期限
-   - Repository access: "Only select repositories"から対象リポジトリを選択
-   - Repository permissions:
-     - Contents: Read and write（gitの読み書きに必要）
-     - Metadata: Read-only（自動で設定）
+    - Token name: 任意（例：obsidian-git-iphone）
+    - Expiration: 任意の期限
+    - Repository access: "Only select repositories"から対象リポジトリを選択
+    - Repository permissions:
+      - Contents: Read and write（gitの読み書きに必要）
+      - Metadata: Read-only（自動で設定）
 
 ### 操作
 
