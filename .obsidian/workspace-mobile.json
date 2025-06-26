@@ -36,7 +36,8 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
+            "sortOrder": "alphabetical",
+            "autoReveal": false
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -160,6 +161,8 @@
   },
   "active": "2aff2f02d3e66da8",
   "lastOpenFiles": [
+    "/requirements.txt",
+    "/requirements-dev.txt",
     "/docs/ja/development/tools/document/pkm/obsidian/community_plugins/Obsidian Git.md",
     "docs/ja/development/tools/index.md",
     "docs/ja/development/tools/shortcuts/index.md",
